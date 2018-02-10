@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A4795B202F8FA700DD987D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A4795A202F8FA700DD987D /* AppDelegate.m */; };
+		72A4795E202F8FA700DD987D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A4795D202F8FA700DD987D /* MainViewController.m */; };
+		72A47963202F8FA700DD987D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A47962202F8FA700DD987D /* Assets.xcassets */; };
+		72A47966202F8FA700DD987D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A47964202F8FA700DD987D /* LaunchScreen.storyboard */; };
+		72A47969202F8FA700DD987D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A47968202F8FA700DD987D /* main.m */; };
+		72A4797F202F904600DD987D /* AVTPuppet+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A4797A202F904600DD987D /* AVTPuppet+Swizzle.m */; };
+		72A47980202F904600DD987D /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A4797E202F904600DD987D /* NSObject+Swizzle.m */; };
+		72A47983202F907800DD987D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A47982202F907800DD987D /* MainView.m */; };
+		72A47986202F915A00DD987D /* AvatarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A47985202F915A00DD987D /* AvatarKit.framework */; };
+		72A47989202F920400DD987D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72A47988202F920400DD987D /* Localizable.strings */; };
+		72A4798C202F92DD00DD987D /* mrsquare.scn in Resources */ = {isa = PBXBuildFile; fileRef = 72A4798B202F92DD00DD987D /* mrsquare.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72A47956202F8FA700DD987D /* SBSCustomAnimoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBSCustomAnimoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A47959202F8FA700DD987D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72A4795A202F8FA700DD987D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72A4795C202F8FA700DD987D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		72A4795D202F8FA700DD987D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		72A47962202F8FA700DD987D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72A47965202F8FA700DD987D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72A47967202F8FA700DD987D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A47968202F8FA700DD987D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72A4797A202F904600DD987D /* AVTPuppet+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVTPuppet+Swizzle.m"; sourceTree = "<group>"; };
+		72A4797B202F904600DD987D /* AVTPuppet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTPuppet.h; sourceTree = "<group>"; };
+		72A4797C202F904600DD987D /* AVTPuppetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTPuppetView.h; sourceTree = "<group>"; };
+		72A4797D202F904600DD987D /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		72A4797E202F904600DD987D /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		72A47981202F907800DD987D /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		72A47982202F907800DD987D /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		72A47985202F915A00DD987D /* AvatarKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvatarKit.framework; sourceTree = "<group>"; };
+		72A47987202F91DE00DD987D /* AVTAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTAvatarView.h; sourceTree = "<group>"; };
+		72A47988202F920400DD987D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		72A4798B202F92DD00DD987D /* mrsquare.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mrsquare.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72A47953202F8FA700DD987D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A47986202F915A00DD987D /* AvatarKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A4794D202F8FA700DD987D = {
+			isa = PBXGroup;
+			children = (
+				72A47958202F8FA700DD987D /* SBSCustomAnimoji */,
+				72A47984202F914F00DD987D /* Frameworks */,
+				72A47957202F8FA700DD987D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72A47957202F8FA700DD987D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72A47956202F8FA700DD987D /* SBSCustomAnimoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72A47958202F8FA700DD987D /* SBSCustomAnimoji */ = {
+			isa = PBXGroup;
+			children = (
+				72A47962202F8FA700DD987D /* Assets.xcassets */,
+				72A47974202F901C00DD987D /* Animoji */,
+				72A47976202F904600DD987D /* AvatarKit */,
+				72A4796F202F8FB200DD987D /* Source */,
+				72A4798A202F921700DD987D /* User interface */,
+				72A47973202F8FDA00DD987D /* Supporting files */,
+			);
+			path = SBSCustomAnimoji;
+			sourceTree = "<group>";
+		};
+		72A4796F202F8FB200DD987D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				72A47970202F8FB600DD987D /* Application */,
+				72A47971202F8FBC00DD987D /* Pages */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		72A47970202F8FB600DD987D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				72A47959202F8FA700DD987D /* AppDelegate.h */,
+				72A4795A202F8FA700DD987D /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		72A47971202F8FBC00DD987D /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				72A47972202F8FC900DD987D /* Main */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		72A47972202F8FC900DD987D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				72A47981202F907800DD987D /* MainView.h */,
+				72A47982202F907800DD987D /* MainView.m */,
+				72A4795C202F8FA700DD987D /* MainViewController.h */,
+				72A4795D202F8FA700DD987D /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		72A47973202F8FDA00DD987D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				72A47988202F920400DD987D /* Localizable.strings */,
+				72A47967202F8FA700DD987D /* Info.plist */,
+				72A47968202F8FA700DD987D /* main.m */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		72A47974202F901C00DD987D /* Animoji */ = {
+			isa = PBXGroup;
+			children = (
+				72A47975202F903200DD987D /* mrsquare */,
+			);
+			path = Animoji;
+			sourceTree = "<group>";
+		};
+		72A47975202F903200DD987D /* mrsquare */ = {
+			isa = PBXGroup;
+			children = (
+				72A4798B202F92DD00DD987D /* mrsquare.scn */,
+			);
+			path = mrsquare;
+			sourceTree = "<group>";
+		};
+		72A47976202F904600DD987D /* AvatarKit */ = {
+			isa = PBXGroup;
+			children = (
+				72A4797B202F904600DD987D /* AVTPuppet.h */,
+				72A47987202F91DE00DD987D /* AVTAvatarView.h */,
+				72A4797C202F904600DD987D /* AVTPuppetView.h */,
+				72A4797A202F904600DD987D /* AVTPuppet+Swizzle.m */,
+				72A4797D202F904600DD987D /* NSObject+Swizzle.h */,
+				72A4797E202F904600DD987D /* NSObject+Swizzle.m */,
+			);
+			path = AvatarKit;
+			sourceTree = "<group>";
+		};
+		72A47984202F914F00DD987D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A47985202F915A00DD987D /* AvatarKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		72A4798A202F921700DD987D /* User interface */ = {
+			isa = PBXGroup;
+			children = (
+				72A47964202F8FA700DD987D /* LaunchScreen.storyboard */,
+			);
+			path = "User interface";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72A47955202F8FA700DD987D /* SBSCustomAnimoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A4796C202F8FA700DD987D /* Build configuration list for PBXNativeTarget "SBSCustomAnimoji" */;
+			buildPhases = (
+				72A47952202F8FA700DD987D /* Sources */,
+				72A47953202F8FA700DD987D /* Frameworks */,
+				72A47954202F8FA700DD987D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBSCustomAnimoji;
+			productName = SBSCustomAnimoji;
+			productReference = 72A47956202F8FA700DD987D /* SBSCustomAnimoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72A4794E202F8FA700DD987D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SimonBS;
+				TargetAttributes = {
+					72A47955202F8FA700DD987D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72A47951202F8FA700DD987D /* Build configuration list for PBXProject "SBSCustomAnimoji" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72A4794D202F8FA700DD987D;
+			productRefGroup = 72A47957202F8FA700DD987D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72A47955202F8FA700DD987D /* SBSCustomAnimoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72A47954202F8FA700DD987D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A47966202F8FA700DD987D /* LaunchScreen.storyboard in Resources */,
+				72A47989202F920400DD987D /* Localizable.strings in Resources */,
+				72A4798C202F92DD00DD987D /* mrsquare.scn in Resources */,
+				72A47963202F8FA700DD987D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A47952202F8FA700DD987D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A4795E202F8FA700DD987D /* MainViewController.m in Sources */,
+				72A47969202F8FA700DD987D /* main.m in Sources */,
+				72A4797F202F904600DD987D /* AVTPuppet+Swizzle.m in Sources */,
+				72A4795B202F8FA700DD987D /* AppDelegate.m in Sources */,
+				72A47980202F904600DD987D /* NSObject+Swizzle.m in Sources */,
+				72A47983202F907800DD987D /* MainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72A47964202F8FA700DD987D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A47965202F8FA700DD987D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72A4796A202F8FA700DD987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72A4796B202F8FA700DD987D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72A4796D202F8FA700DD987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SBSCustomAnimoji/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.SBSCustomAnimoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72A4796E202F8FA700DD987D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SBSCustomAnimoji/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.SBSCustomAnimoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72A47951202F8FA700DD987D /* Build configuration list for PBXProject "SBSCustomAnimoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A4796A202F8FA700DD987D /* Debug */,
+				72A4796B202F8FA700DD987D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A4796C202F8FA700DD987D /* Build configuration list for PBXNativeTarget "SBSCustomAnimoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A4796D202F8FA700DD987D /* Debug */,
+				72A4796E202F8FA700DD987D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72A4794E202F8FA700DD987D /* Project object */;
+}

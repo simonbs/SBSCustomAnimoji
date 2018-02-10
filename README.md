@@ -15,7 +15,11 @@ Your 3D model should support these geometry morphers. In Blender you do this usi
 
 You should also add a skeleton to your 3D model. You will only need to create a single bone which AvatarKit will use to rotate your 3D model as you rotate your head.
 
-In order to use your 3D model with AvatarKit, you need to create a SceneKit scene. Add a scene to your Xcode project. Your scene graph should have the following nodes:
+In order to use your 3D model with AvatarKit, you need to create a SceneKit scene. First you will need to export your 3D model. I exported it to Collada (.dae). If you are using Blender, there's an extra step. When exporting to Collada using Blender, the shape keys are not available to SceneKit. You can use [ColladaMorphAdjuster](https://github.com/JonAllee/ColladaMorphAdjuster) to ensure that the shape keys are correctly exposed. However, there's an issue when using ColladaMorphAdjuster with a Collada file containing a skeleton. As mentioned in [this issue](https://github.com/JonAllee/ColladaMorphAdjuster/issues/2) in the ColladdaMorphAdjuster repository, you'll need to manually modify the exported Collada file.
+
+Add a scene to your Xcode project.
+
+Your scene graph should have the following nodes:
 
 ```
 - puppet

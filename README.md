@@ -2,6 +2,10 @@
 
 Custom animoji built using Apples private framework AvatarKit. For an example on how to use Apples Animojis that are used in iMessage, refer to [SBSAnimoji](https://github.com/simonbs/SBSAnimoji).
 
+![](https://raw.githubusercontent.com/simonbs/SBSCustomAnimoji/master/screenshot.png)
+
+Below you will find a brief introduction to making your own Animoji. All the code you will need is in this repository including an example 3D model made using Blender.
+
 ## Making your own Animoji
 
 First you need to draw your 3D model using your favorite 3D creation software. I used [https://www.blender.org](https://www.blender.org) to create Mr. Square. You can find my Blender file in this repository.

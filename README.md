@@ -8,7 +8,7 @@ Below you will find a brief introduction to making your own Animoji. All the cod
 
 ## Making your own Animoji
 
-First you need to draw your 3D model using your favorite 3D creation software. I used [https://www.blender.org](https://www.blender.org) to create Mr. Square. You can find my Blender file in this repository.
+First you need to draw your 3D model using your favorite 3D creation software. I used [Blender](https://www.blender.org) to create Mr. Square. You can find my Blender file in this repository.
 
 Next you need to add support for geometry morphers. AvatarKit use [geometry morphers](https://developer.apple.com/documentation/scenekit/scnmorpher) to morph between different expressions. When AvatarKit recognizes a facial expression, it will assign a weight between 0 and 1 to the facial expression. For example, opening your mouth as much as you can, will have a value of 1 and closing it completely will have a value of 0. By doing this for all of your facial expressions and assigning the weights to geometry morphers, the 3D model will reflect your expression.
 Your 3D model should support these geometry morphers. In Blender you do this using [shape keys](https://docs.blender.org/manual/en/dev/animation/shape_keys/introduction.html). See below for a list of supported geometry morphers.

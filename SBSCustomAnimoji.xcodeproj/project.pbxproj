@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72899B362030681A00BEE6D1 /* mrsquare.scn in Resources */ = {isa = PBXBuildFile; fileRef = 72899B352030681A00BEE6D1 /* mrsquare.scn */; };
 		72A4795B202F8FA700DD987D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A4795A202F8FA700DD987D /* AppDelegate.m */; };
 		72A4795E202F8FA700DD987D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A4795D202F8FA700DD987D /* MainViewController.m */; };
 		72A47963202F8FA700DD987D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A47962202F8FA700DD987D /* Assets.xcassets */; };
@@ -17,10 +18,10 @@
 		72A47983202F907800DD987D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A47982202F907800DD987D /* MainView.m */; };
 		72A47986202F915A00DD987D /* AvatarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A47985202F915A00DD987D /* AvatarKit.framework */; };
 		72A47989202F920400DD987D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72A47988202F920400DD987D /* Localizable.strings */; };
-		72A4798C202F92DD00DD987D /* mrsquare.scn in Resources */ = {isa = PBXBuildFile; fileRef = 72A4798B202F92DD00DD987D /* mrsquare.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72899B352030681A00BEE6D1 /* mrsquare.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mrsquare.scn; sourceTree = "<group>"; };
 		72A47956202F8FA700DD987D /* SBSCustomAnimoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBSCustomAnimoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A47959202F8FA700DD987D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72A4795A202F8FA700DD987D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		72A47985202F915A00DD987D /* AvatarKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvatarKit.framework; sourceTree = "<group>"; };
 		72A47987202F91DE00DD987D /* AVTAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTAvatarView.h; sourceTree = "<group>"; };
 		72A47988202F920400DD987D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		72A4798B202F92DD00DD987D /* mrsquare.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mrsquare.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		72A47975202F903200DD987D /* mrsquare */ = {
 			isa = PBXGroup;
 			children = (
-				72A4798B202F92DD00DD987D /* mrsquare.scn */,
+				72899B352030681A00BEE6D1 /* mrsquare.scn */,
 			);
 			path = mrsquare;
 			sourceTree = "<group>";
@@ -236,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A47966202F8FA700DD987D /* LaunchScreen.storyboard in Resources */,
+				72899B362030681A00BEE6D1 /* mrsquare.scn in Resources */,
 				72A47989202F920400DD987D /* Localizable.strings in Resources */,
-				72A4798C202F92DD00DD987D /* mrsquare.scn in Resources */,
 				72A47963202F8FA700DD987D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
